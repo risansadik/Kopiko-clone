@@ -1,0 +1,208 @@
+/* General styles for the body*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav Bar Styles */
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Heading Styles */
+h1 {
+    margin: 0;
+    color: rgb(183, 182, 182);
+    font-size: 3rem;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+/* Hovering effects for Main Heading */
+h1:hover {
+    color: rgb(219, 79, 61);
+}
+
+/* Sub Heading Styles */
+h2 {
+    margin: 0;
+    color: rgb(183, 182, 182);
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+/* Navigation Container Syles */
+.nav-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    border-top: solid 0.2px rgba(63, 51, 51, 0.556);
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Un-ordered list styles inside the navigation container */
+ul {
+    display: flex;
+    color: white;
+    gap: 3rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/* transition for home-bar classes */
+.home-bar {
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+/* Style for active home-bar class */
+.home-bar.active {
+    color: rgb(219, 79, 61);
+}
+
+/* Hover effects for home-bar class contents */
+.home-bar:hover {
+    color: rgb(219, 79, 61);
+}
+
+
+/* Section Styles */
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adjusting Main image */
+.main-image {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+/* descreptions styles */
+.para-1,
+.para-2 {
+    color: rgb(122, 122, 122);
+    font-size: 20px;
+    font-weight: bold;
+    width: 1100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+/* Adjusting Additional Description */
+.para-2 {
+    margin-bottom: 50px;
+}
+
+/* Adjusting Secondary Image */
+.sub-image {
+    object-fit: cover;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    gap: 100px;
+}
+
+/* Social Media Icons Container Styles */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+/* Individual icon styles inside icon container*/
+.facebook,
+.instagram,
+.linkdn,
+.youtube {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* Facebook icon background color */
+.facebook {
+    background-color: #3b5998;
+}
+
+/* Instagram icon background color */
+.instagram {
+    background-color: #262626;
+}
+
+/* Linkedin icon background color */
+.linkdn {
+    background-color: #0077b5;
+}
+
+/* Youtube icon background color */
+.youtube {
+    background-color: #cd201f;
+}
+
+/* Copyright Notice Styles */
+.copyright-notice {
+    color: rgb(122, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/* Span element style inside the copyright notice */
+span {
+    transition: color 0.3s;
+}
+
+/* Hover effect for span element */
+span:hover {
+    color: rgb(219, 79, 61);
+    text-decoration: underline;
+}
